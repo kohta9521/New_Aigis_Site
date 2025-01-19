@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap");
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* color assets */
+  --main-green: #00331d;
+  /* --main-gold: ; */
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Sawarabi Mincho", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
