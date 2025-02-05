@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        noto: "var(--font-noto-sans)", // `Noto Sans` を適用
+        playfair: "var(--font-playfair-display)", // `Playfair Display` を適用
+      },
     },
   },
   plugins: [],
