@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
 
 :root {
   --background: #ffffff;
@@ -17,7 +17,15 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "Sawarabi Mincho", serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Noto Sans JP", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* 再利用コード */
+@layer components {
+  .section-title {
+    @apply text-5xl font-serif font-medium mb-16 sm:mb-16 sm:text-6xl;
+  }
 }
