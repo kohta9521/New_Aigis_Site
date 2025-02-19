@@ -24,7 +24,7 @@ const Logo = ({ id, link, size = "md" }: LogoProps) => {
         "text-2xl": size === "sm",
       })}
     >
-      <p className="">Aigis</p>
+      <p className="font-didot tracking-wide">Aigis</p>
     </Link>
   );
 };

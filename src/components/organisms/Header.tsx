@@ -15,7 +15,13 @@ const Header = () => {
             id="header-about"
             link="#about"
             jaTitle="Aigisについて"
-            enTitle="About"
+            enTitle="Introduction"
+          />
+          <ListItem
+            id="header-philosophy"
+            link="#philosophy"
+            jaTitle="想い"
+            enTitle="Philosophy"
           />
           <ListItem
             id="header-profile"
@@ -24,10 +30,16 @@ const Header = () => {
             enTitle="Profile"
           />
           <ListItem
-            id="header-question"
-            link="#question"
-            jaTitle="よくある質問"
-            enTitle="Q&A"
+            id="header-method"
+            link="#method"
+            jaTitle="メソッド"
+            enTitle="Method"
+          />
+          <ListItem
+            id="header-voice"
+            link="#voice"
+            jaTitle="クライアント様の声"
+            enTitle="Client Voice"
           />
           <ListItem
             id="header-contact"

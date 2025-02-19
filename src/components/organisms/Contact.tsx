@@ -3,13 +3,13 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="w-full h-auto py-20 pb-10">
-      <div className="w-11/12 mx-auto sm:w-10/12">
-        <h1 className="section-title mb-4">Contact</h1>
-        <p className="text-base font-mono font-medium">
+      <div id="contact" className="w-11/12 mx-auto sm:w-8/12">
+        <h1 className="text-4xl mb-10 sm:text-4xl">CONTACT</h1>
+        <p className="text-base font-serif font-medium mb-10">
           お見積りやその他ご相談、お気軽にお問い合わせください。
         </p>
         {/* Main */}
-        <div className="w-full">
+        <div className="w-full mb-5">
           <form method="post" action="https://aigis.form.newt.so/v1/tqB7MGvOr">
             <label htmlFor="name" className="mt-4 mb-2 block font-medium">
               お名前<span className="text-red-500 ml-1">*</span>
@@ -43,7 +43,7 @@ const Contact = () => {
             ></textarea>
             <button
               type="submit"
-              className="bg-[var(--main-green)] w-full py-2 text-white rounded-md"
+              className="bg-[var(--main-green)] w-full py-2 my-4 text-white rounded-md"
             >
               送信
             </button>

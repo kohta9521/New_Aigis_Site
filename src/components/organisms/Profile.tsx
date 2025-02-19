@@ -5,11 +5,11 @@ import React from "react";
 const Profile = () => {
   return (
     <div className="w-screen py-20 sm:py-36">
-      <div className="w-10/12 mx-auto h-full">
-        <h1 className="text-6xl mb-14">Profile</h1>
-        <div className="sm:flex sm:justify-between">
+      <div className="w-11/12 sm:w-8/12 mx-auto h-full" id="profile">
+        <h1 className="text-4xl mb-10 sm:text-4xl">PROFILE</h1>
+        <div className="sm:flex sm:justify-between sm:items-center">
           <div className="sm:w-1/2">
-            <p className="text-base font-medium font-mono leading-relaxed mb-10">
+            <p className="text-base font-medium font-serif leading-relaxed mb-10">
               幼少期から事業承継などの諸問題を間近で見てきて、
               <br />
               組織におけるトップ層の意識、在り方の重要性を認識。

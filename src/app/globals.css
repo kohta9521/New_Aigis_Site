@@ -5,6 +5,15 @@
 /* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
 
+/* fonts */
+@font-face {
+  font-family: "Didot";
+  src: url("/fonts/Didot.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -26,6 +35,6 @@ body {
 /* 再利用コード */
 @layer components {
   .section-title {
-    @apply text-5xl font-serif font-medium mb-16 sm:mb-16 sm:text-6xl;
+    @apply text-4xl font-serif font-medium mb-16 sm:mb-16 sm:text-6xl;
   }
 }

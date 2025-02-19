@@ -13,6 +13,7 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
+        didot: ["Didot", "sans-serif"],
         noto: "var(--font-noto-sans)", // `Noto Sans` を適用
         playfair: "var(--font-playfair-display)", // `Playfair Display` を適用
       },

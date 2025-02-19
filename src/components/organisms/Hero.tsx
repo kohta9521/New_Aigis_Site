@@ -7,8 +7,10 @@ const Hero = () => {
     <div className="w-screen h-[calc(100vh-80px)] flex flex-col justify-between">
       {/* title center */}
       <div className="absolute top-1/2 text-center w-full">
-        <h1 className="text-4xl sm:text-6xl font-serif">Solitudeを力に</h1>
-        <p className="text-xs sm:text-lg font-noto text-[var(--main-green)]">
+        <h1 className="text-4xl sm:text-6xl font-serif">
+          <span className="font-playfair">Solitude</span>を力に
+        </h1>
+        <p className="text-xs sm:text-lg font-serif mt-2 text-[var(--main-green)]">
           本来のあなたを最大限発揮するための心理分析カウンセリング
         </p>
       </div>
